@@ -5,7 +5,7 @@ Scripts para las prácticas de la asignatura "Gestión y Conservación de Fauna 
 
 It computes the number of taxa represented in a reserve network for a given conservation target and assesses whether this level of representation is significantly lower or greater than expected by chance. An analysis for multiple thresholds to consider a grid cell as protected is undertaken. The inputs are: (1) matrix of presence/absence data by species and area; (2) a table with area codes and the percentage of overlap with protected areas for each area.
 
-gap_analysis.r                                 matrix.txt                                cells.txt
+Input files: gap_analysis.r, matrix.txt, cells.txt
 
 Citation and details:
 
@@ -15,7 +15,7 @@ Abellán P, Sánchez-Fernández D. 2015. A gap analysis comparing the effectiven
 
 For each species, the level of representativeness in a protected area network is computed as the mean percentage of spatial overlap between those planning units in which the species occurs in the study area and the protected areas (grid cells). The inputs are: (1) matrix of presence/absence data by species and area; (2) a table with area codes and the percentage of overlap with protected areas for each area.
 
-mean_percentage_overlap.r                                      matrix.txt                           cells.txt
+Input files: mean_percentage_overlap.r , matrix.txt, cells.txt
 
 Citation and details:
 
